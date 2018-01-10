@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#btnNextPage").click(function () {
+                $("#div1").load("Question9.html");
+            });
+
+            $("#btnJQuestion1").click(function () {
+                $("#div1").load("Question1.html");
+            });
+
+            $("#btnJQuestion2").click(function () {
+                $("#div1").load("Question2.html");
+            });
+
+            $("#btnJQuestion3").click(function () {
+                $("#div1").load("Question3.html");
+            });
+
+            $("#btnJQuestion4").click(function () {
+                $("#div1").load("Question4.html");
+            });
+
+            $("#btnJQuestion5").click(function () {
+                $("#div1").load("Question5.html");
+            });
+
+            $("#btnJQuestion6").click(function () {
+                $("#div1").load("Question6.html");
+            });
+
+            $("#btnJQuestion7").click(function () {
+                $("#div1").load("Question7.html");
+            });
+
+            $("#btnJQuestion8").click(function () {
+                $("#div1").load("Question8.html");
+            });
+
+            $("#btnJQuestion9").click(function () {
+                $("#div1").load("Question9.html");
+            });
+
+            $("#btnJQuestion10").click(function () {
+                $("#div1").load("Question10.html");
+            });
+
+            $("#btnJSubmit").click(function () {
+                $("#div1").load("ThankYouPage.html");
+            });
+
+            $("#btnPreviousPage").click(function () {
+                $("#div1").load("Question7.html");
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="div1" class="container-fluid">
+        <div class="row">
+            <div class="col-sm-8">
+
+                <h2 class="well well-lg">Question 8</h2>
+                <p class="well well-lg">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.</p>
+                <br /><br /><br />
+                <input type="radio" id="rdOption1" /> Option 1<br /><br />
+                <input type="radio" id="rdOption1" /> Option 2<br /><br />
+                <input type="radio" id="rdOption1" /> Option 3<br /><br />
+                <input type="radio" id="rdOption1" /> Option 4<br /><br /><br /><br />
+                <input class="btn btn-success" type="button" id="btnPreviousPage" value="Previous Question" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input class="btn btn-success" type="button" id="btnNextPage" value="Next Question" />
+            </div>
+            <div class="col-sm-4">
+                <h3 class="well well-lg">Jump on Question.</h3>
+                <br /><br /><br /><br /><br /><br /><br /><br />
+                <input class="btn btn-success" type="button" id="btnJQuestion1" value="Question 1" />
+                <input class="btn btn-success" type="button" id="btnJQuestion2" value="Question 2" /><br />
+                <input class="btn btn-success" type="button" id="btnJQuestion3" value="Question 3" />
+                <input class="btn btn-success" type="button" id="btnJQuestion4" value="Question 4" /><br />
+                <input class="btn btn-success" type="button" id="btnJQuestion5" value="Question 5" />
+                <input class="btn btn-success" type="button" id="btnJQuestion6" value="Question 6" /><br />
+                <input class="btn btn-success" type="button" id="btnJQuestion7" value="Question 7" />
+                <input class="btn btn-success" type="button" id="btnJQuestion8" value="Question 8" /><br />
+                <input class="btn btn-success" type="button" id="btnJQuestion9" value="Question 9" />
+                <input class="btn btn-success" type="button" id="btnJQuestion10" value="Question 10" /><br /><br /><br />
+                <input class="btn btn-danger" type="button" id="btnJSubmit" value="Submit Quiz" />
+            </div>
+        </div>
+        <div class="container">
+            <h2>Quiz Progress</h2>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                    <span class="sr-only">70% Complete</span>
+                </div>
+            </div>
+        </div>
+        <div class="well well-lg">&copy; All rights reserved, Siddiqui.  </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iCompass", "iCompass\iCompass.csproj", "{A8784FC9-3AEB-4857-958D-B6794728551D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8784FC9-3AEB-4857-958D-B6794728551D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8784FC9-3AEB-4857-958D-B6794728551D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8784FC9-3AEB-4857-958D-B6794728551D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8784FC9-3AEB-4857-958D-B6794728551D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F9123BD-0097-40FE-8319-9D079EFE2A50}
+	EndGlobalSection
+EndGlobal

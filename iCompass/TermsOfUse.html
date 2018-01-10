@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <script>
+        $(document).ready(function () {
+            $("#btnStartQuiz").click(function () {
+                $("#div1").load("Question1.html");
+            });
+        });
+            //$("#btnStartQuiz").click(function () {               
+            //    if (document.getElementById('rdTerms').checked = !null) {
+            //            $("#div1").load("Question1.html");
+            //        }
+            //        else
+            //            alert("Please Accept the Terms and Conditions !");
+            //    });
+            // $("#btnStartQuiz").click(function () {
+            //if ($("#rdTerms").attr("checked") == !null) {
+            //    $("#div1").load("Question1.html");
+            //}
+            //else
+            //           alert("Please Accept the Terms and Conditions !");
+            //});
+        //    $("#btnStartQuiz").click(function () {
+           
+        //     if (document.getElementById('#rdTerms').Checked) {
+        //        $("#div1").load("Question1.html");
+        //    }
+        //    else
+        //            alert("Please Accept the Terms and Conditions !");
+        //});
+        //});
+        
+
+
+    </script>
+</head>
+<body>
+    <div id="div1" class="container">
+        <h2 class="well well-lg">Terms Of Use</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+            Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.<br />
+            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
+            Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.<br />
+            Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
+        </p>
+        <input type="radio" id="rdTerms" />I agree for the above terms and conditions.<br /><br />
+        <input class="btn btn-success" type="button" id="btnStartQuiz" value="Start Quiz" />
+        <div class="well well-lg">&copy; All rights reserved, Siddiqui.  </div>
+    </div>
+</body>
+</html>
